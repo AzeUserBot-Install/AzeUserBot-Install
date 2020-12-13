@@ -7,7 +7,7 @@ AzeUserBot Reposunu kontrol edin: https://github.com/vusal0868/azeuserbot
 ## Kurulum
 ```sh
 git clone https://github.com/AzeUserBot-Install/Install
-cd Installer
+cd Install
 pip install -r requirements.txt
 python3 -m azeuserbot-install
 ```
