@@ -6,7 +6,7 @@ def importlang ():
     console.clear()
     logo()
     bilgi("\n\[1] Türkçe\n\[2] Azərbaycanca\n\[3] English\n\[4] O'zbek")
-    Dil = Prompt.ask("[bold yellow]Lütfen bir dil seçin / Please select a language[/]", choices=["1", "2", "3", "4"], default="1")
+    Dil = Prompt.ask("[bold yellow]Lütfen bir dil seçin / Please select a language[/]", choices=["1", "2", "3"], default="1")
 
     if Dil == "1":
         COUNTRY = "Turkey"
@@ -20,10 +20,6 @@ def importlang ():
         COUNTRY = "United Kingdom"
         LANGUAGE = "EN"
         TZ = "Europe/London"
-    elif Dil == "4":
-        COUNTRY = "Uzbekistan"
-        LANGUAGE = "UZ"
-        TZ = "Asia/Tashkent"
 
     return COUNTRY, LANGUAGE, TZ
 
